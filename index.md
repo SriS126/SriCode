@@ -4,7 +4,7 @@
 ## Sri's Page
 My name is Sri, and I like coding in Python. I am excited to take CSP as I can put my coding skills to the test. Below is my Freeform picture that can describe me.
 
-![](IMG_3155.jpg)
+![](images/IMG_3155.jpg)
 
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time. 
