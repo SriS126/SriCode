@@ -16,13 +16,15 @@ title: Sri's Blog
  - rbenv versions - shows your current ruby versions
  - ruby -v - shows your current ruby version
  - bundle install - this command installs the dependencies in your Gemfile
- - ![]() - adds an image
-  - -—---------------------—-   WEEK 0  -----------------------------
+ - ![]() - adds an image  
+
+   ## -—---------------------—-   WEEK 0  -----------------------------
  - Listened to Mr. Mortenson talk about the class, online notebooks are important
  - Installed VSCode, homebrew, and made an account for github
  - Was playing around with the terminal by opening directories
- - Installed python and jupyter on VSCode
-  -  —---------------------—-   WEEK 1  -----------------------------
+ - Installed python and jupyter on VSCode  
+
+   ##  —---------------------—-   WEEK 1  -----------------------------
  - Opened a new terminal, created a vscode directory with mkdir vscode and then cd vscode
  - Cloned a teacher repository by using git clone 
  - After learning how do clone a teacher repository I cloned a student repository and forked it onto my Github account

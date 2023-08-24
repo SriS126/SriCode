@@ -17,7 +17,7 @@
 >
 </iframe>
 
-## Here are some of my social media profiles
-[Github](https://github.com/SriS126)  
+## Here are some of my social media profiles:
+## [Github](https://github.com/SriS126)  
 
-[Instagram](https://www.instagram.com/sri__s126/?next=%2F)
+## [Instagram](https://www.instagram.com/sri__s126/?next=%2F)
