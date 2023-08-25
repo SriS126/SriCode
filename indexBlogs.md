@@ -3,28 +3,62 @@ layout: blogs
 permalink: /blogs
 title: Sri's Blog
 ---
-## Terms (How We Used Them)
- - make - command that helps run your local server 
- - make convert - checks and ensures Jupyter notebooks are up to date
- - make clean - stops the local server and cleans the files
- - make stop - stops the local server
- - cd ~ allows you to move through directories
- - cd vscode - allows you to go to VSCode directory
- - python –version - shows you your current python version
- - jupyter –version - shows all your jupyter files and their current versions
- - git clone - clones a repository 
- - rbenv versions - shows your current ruby versions
- - ruby -v - shows your current ruby version
- - bundle install - this command installs the dependencies in your Gemfile
- - ![]() - adds an image  
+<html>
+<head>
+    <title>Search Terms</title>
+    <script>
+        var terms = []; // Global array to store terms
 
-   ## -—---------------------—-   WEEK 0  -----------------------------
+        function loadTerms() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "terms.txt", true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var rawData = xhr.responseText;
+                    var lines = rawData.split("\n");
+                    for (var i = 0; i < lines.length; i++) {
+                        var termData = lines[i].split("=");
+                        terms.push(termData);
+                    }
+                }
+            };
+            xhr.send();
+        }
+
+        function searchTerms() {
+            var searchInput = document.getElementById("searchInput").value;
+            var resultOutput = document.getElementById("resultOutput");
+            var found = false;
+
+            for (var i = 0; i < terms.length; i++) {
+                if (searchInput === terms[i][0]) {
+                    found = true;
+                    resultOutput.innerText = "Definition:\n" + terms[i][1];
+                    break; // No need to continue searching if term is found
+                }
+            }
+
+            if (!found) {
+                resultOutput.innerText = "Sorry, we can't find that term. Make sure you have spelled your query correctly.";
+            }
+        }
+    </script>
+</head>
+<body onload="loadTerms()">
+    <h1>Search Terms</h1>
+    <input type="text" id="searchInput" placeholder="Enter your search">
+    <button onclick="searchTerms()">Search</button>
+    <div id="resultOutput"></div>
+</body>
+</html>
+
+## -—---------------------—-   WEEK 0  -----------------------------
  - Listened to Mr. Mortenson talk about the class, online notebooks are important
  - Installed VSCode, homebrew, and made an account for github
  - Was playing around with the terminal by opening directories
  - Installed python and jupyter on VSCode  
 
-   ##  —---------------------—-   WEEK 1  -----------------------------
+##  —---------------------—-   WEEK 1  -----------------------------
  - Opened a new terminal, created a vscode directory with mkdir vscode and then cd vscode
  - Cloned a teacher repository by using git clone 
  - After learning how do clone a teacher repository I cloned a student repository and forked it onto my Github account
@@ -39,3 +73,25 @@ title: Sri's Blog
  - Wanted to add free form picture,tried dragging and linking image to my index.md but it didn’t work
  - Fixed the problem by copying the relative path of the image and pasting it in ![](videolink)	
 
+## Terms (How We Used Them)
+ - make - command that helps run your local server 
+ - make convert - checks and ensures Jupyter notebooks are up to date
+ - make clean - stops the local server and cleans the files
+ - make stop - stops the local server
+ - cd ~ allows you to move through directories
+ - cd vscode - allows you to go to VSCode directory
+ - python –version - shows you your current python version
+ - jupyter –version - shows all your jupyter files and their current versions
+ - git clone - clones a repository 
+ - rbenv versions - shows your current ruby versions
+ - ruby -v - shows your current ruby version
+ - bundle install - this command installs the dependencies in your Gemfile
+ - ![]() - adds an image  
+ - ls - lists files in the respository
+ - pwd - Print working directory command
+ - mkdir - Command used to create directories
+ - echo - Print any text that follows the command
+ - clear - Clear the terminal display
+ - mv - Move or rename files
+ - useradd - adds a new user
+ - sudo - command to create privileges
