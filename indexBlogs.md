@@ -51,27 +51,72 @@ title: Sri's Blog
     <div id="resultOutput"></div>
 </body>
 </html>
-
-## -—---------------------—-   WEEK 0  -----------------------------
- - Listened to Mr. Mortenson talk about the class, online notebooks are important
- - Installed VSCode, homebrew, and made an account for github
- - Was playing around with the terminal by opening directories
- - Installed python and jupyter on VSCode  
-
-##  —---------------------—-   WEEK 1  -----------------------------
- - Opened a new terminal, created a vscode directory with mkdir vscode and then cd vscode
- - Cloned a teacher repository by using git clone 
- - After learning how do clone a teacher repository I cloned a student repository and forked it onto my Github account
- - Opened my student repository in VSCode
- - Followed install steps to install gems, pip, ruby, and more
- - Once done installing all the necessary tools, I opened terminal in vscode and wrote bundle install and then typed make
- - Once the server ran and provided with the link, I opened the website
- - I linked the website to my Github Account
- - Played around with the website, opened index.md and then changed the heading text to Sri’s Page
- - Pressed command save and then went to my website again to see the change
- - Repeated the 2 steps above and added more info about me
- - Wanted to add free form picture,tried dragging and linking image to my index.md but it didn’t work
- - Fixed the problem by copying the relative path of the image and pasting it in ![](videolink)	
+<table>
+  <tr>
+    <th>Week</th>
+    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plans</th>
+    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                &nbsp;&nbsp;&nbsp;&nbsp;Notes/Hacks</th>
+    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tangibles</th>
+  </tr>
+  <tr>
+    <td><font size="+2">0</font></td>
+    <td>
+      <ul>
+        <li>Download VSCode, get coding tools set up</li>
+        <li>Get accustomed to VScode, download and follow instructions on week 0 blog</li>
+        <li>Download Jupyter, Python, Homebrew, all other necessary tools</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Listened to Mr. Mortenson talk about the class, online notebooks are important</li>
+        <li>Installed VSCode, homebrew, and made an account for Github</li>
+        <li>Was playing around with the terminal by opening directories</li>
+        <li>Installed python and Jupyter on VSCode</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Code editor installed</li>
+        <li>Requirements document</li>
+        <li>Ideas list</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><font size="+2">1</font></td>
+    <td>
+      <ul>
+        <li>Download remaining tooks, get a local website running</li>
+        <li>Experiment on modifying the website with images, videos, minigames</li>
+        <li>Edit blogs to create notebook</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Opened a new terminal, created a vscode directory with mkdir vscode and then cd vscode</li>
+        <li>Cloned a teacher repository by using git clone</li>
+        <li>After learning how do clone a teacher repository I cloned a student repository and forked it onto my Github account</li>
+        <li>Opened my student repository in VSCode</li>
+        <li>Followed install steps to install gems, pip, ruby, and more</li>
+        <li>Once done installing all the necessary tools, I opened terminal in vscode and wrote bundle install and then typed make</li>
+        <li>Once the server ran and provided with the link, I opened the website</li>
+        <li>I linked the website to my Github Account</li>
+        <li>Played around with the website, opened index.md and then changed the heading text to Sri’s Page</li>
+        <li>Pressed command save and then went to my website again to see the change</li>
+        <li>Repeated the 2 steps above and added more info about me</li>
+        <li>Wanted to add free form picture, tried dragging and linking image to my index.md but it didn’t work</li>
+        <li>Fixed the problem by copying the relative path of the image and pasting it in and using ![](imageurl)</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Functional code</li>
+        <li>Debugged issues</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## Terms (How We Used Them)
  - make - command that helps run your local server 
